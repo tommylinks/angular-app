@@ -1,0 +1,8 @@
+<div class="card" style="width: 20rem;">
+  <div class="card-block">
+    <h4 class="card-title">{{ task?.name }}</h4>
+    <p class="card-text">{{ task?.description }}</p>
+    <button class="btn btn-primary" (click)="goBack()">Go back</button>
+    <button class="btn btn-warning" (click)="edit(task?.id)">Edit</button>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+th {
+    font-weight: normal;
+}
+
+tr.important th {
+    color: red;
+    font-weight: bold;
+}
